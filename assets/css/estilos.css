@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+/* Css Seccion Principal*/
+.principal {
+    display: flex;
+    height:100lvh;
+    flex-direction: column;
+    justify-content:center;
+    align-content: center;
+    text-align: center;
+    flex-basis: 70%;
+}
+.imagenPrincipal{
+    align-self: center;
+    align-content: center;
+    width: 20%;
+    height: auto;
+}
+.tituloPrincipal{
+    font-size: 45px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    padding-top: 20px;
+}   
+
+.textoPrincipal{
+    font-size: medium;
+    font-family: "Roboto", sans-serif;
+}
+
+/*Css Contactos*/
+
+.contactos {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    border-right: 1px solid;
+    border-color: #BEC1BB;
+}
+.usuario{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    border-color: #BEC1BB;
+    border-bottom: 1px solid;
+    border-color: #BEC1BB;
+    padding: 20px;
+}
+.maria{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 30px;
+}
+.containerTextoMaria{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+.containerFotoMaria{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.fotoMaria{
+    border-radius: 50%;
+    width: 19%;
+    margin-left: 10px;
+}
+
+.nombreUsuario{
+    font-size: large;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+.estadoUsuario{
+    font-size: small;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #BEC1BB;
+}
+
+.iconosUsuario{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: row;
+    gap:20px;
+}
+
+.iconos{
+    color: #828485;
+    font-size: 24px;
+}
+
+/*Css Boton Nuevo Chat*/
+.nuevoChat{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid;
+    border-color: #BEC1BB;
+}
+.botonChat{
+    background-color: #A491D2;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-style:none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:small;
+}
+.botonChat:hover{
+    background-color: #CDC3E6;
+    color: white;
+}
+.botonChat:focus{
+    background-color: #BEC1BB;
+    color: white;
+}
+
+/*Css Contactos de Maria*/
+
+.otrosContactos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right: 35px;
+    padding-left: 20px;
+    border-bottom: 1px solid;
+    border-color: #BEC1BB;
+    gap: 25px;
+}
+.fotoContacto{
+    border-radius: 50%;
+    width: 20%;
+}
+.containerContacto{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+.nombreContacto{
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.estadoContacto{
+    font-size: medium;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
