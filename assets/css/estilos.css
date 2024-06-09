@@ -7,72 +7,76 @@
     display: flex;
 }
 
-/* Css Seccion Principal*/
-.principal {
+.container2 {
     display: flex;
     height:100lvh;
+    text-align: center;
+    flex-basis: 70%;
     flex-direction: column;
     justify-content:center;
     align-content: center;
-    text-align: center;
-    flex-basis: 70%;
+   
 }
-.imagenPrincipal{
-    align-self: center;
-    align-content: center;
+.imagenContainer2{
     width: 20%;
     height: auto;
+    align-self: center;
+    align-content: center;
 }
-.tituloPrincipal{
-    font-size: 45px;
-    font-family: "Roboto", sans-serif;
+.tituloContainer2{
+  
     font-weight: 400;
     padding-top: 20px;
+    font-size: 45px;
+    font-family: "Roboto", sans-serif;
 }   
 
-.textoPrincipal{
-    font-size: medium;
+.textoContainer2{
+    
     font-family: "Roboto", sans-serif;
+    font-size: medium;
 }
 
-/*Css Contactos*/
+
 
 .contactos {
+    border-right: 1px solid;
+    border-color: #6b7263;
     display: flex;
     flex-direction: column;
     flex-basis: 20%;
-    border-right: 1px solid;
-    border-color: #BEC1BB;
+   
 }
 .usuario{
+  
+    align-items: center;
+    border-color: #62685b;
+    border-bottom: 1px solid;
+    border-color: #586051;
+    padding: 20px;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     gap: 10px;
-    align-items: center;
-    border-color: #BEC1BB;
-    border-bottom: 1px solid;
-    border-color: #BEC1BB;
-    padding: 20px;
 }
-.maria{
+.imagenperfil{
     display: flex;
     flex-direction: row;
     align-items: center;
     column-gap: 30px;
 }
-.containerTextoMaria{
+.containerTextoPerfil{
     display: flex;
     align-items: start;
     flex-direction: column;
 }
-.containerFotoMaria{
+.containerFotoPerfil{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
 }
-.fotoMaria{
+.fotoPerfil{
     border-radius: 50%;
     width: 19%;
     margin-left: 10px;
@@ -102,8 +106,8 @@
     font-size: 24px;
 }
 
-/*Css Boton Nuevo Chat*/
-.nuevoChat{
+
+.Chat{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -133,9 +137,9 @@
     color: white;
 }
 
-/*Css Contactos de Maria*/
 
-.otrosContactos{
+
+.Contactos2{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
